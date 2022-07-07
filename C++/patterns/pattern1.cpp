@@ -1,3 +1,4 @@
+//Rectangular pattern
 #include <iostream>
 using namespace std;
 
