@@ -7,5 +7,6 @@
         "islowercasevowel",
         "isuppercasevowel",
         "oddsum"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
 }
