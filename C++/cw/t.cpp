@@ -14,7 +14,6 @@ node* create_node(int);
 int main(){
     return 0;
 }
-int count = 0;
 node* create_node(int num)
 {
     struct node* temp,*s;
@@ -41,11 +40,18 @@ void insert_begin()
 
 }
 
+void insert_pos()
+{
+    int num,pos,count=0;
+    cout<<"Enter the position at which the element=> ";
+    
+}
+
 void display(struct Node* head)
 {
     while (head != NULL) {
         cout << " " << head->data;
         head = head->next;
     }
-    cout << endl;
+
 }
